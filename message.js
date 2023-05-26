@@ -1,15 +1,15 @@
 function retrieveVerb(arr){
-    let dict = ["verb0", "verb1", "verb2", "verb3", "verb4"];
+    let dict = ["plants", "eats", "sniffs", "smacks", "sneezes"];
     return dict[arr[0]];
 }
 
 function retrieveNoun(arr){
-    let dict = ["noun0", "noun1", "noun2", "noun3", "noun4"];
+    let dict = ["car", "house", "flower", "airplane", "school"];
     return dict[arr[1]];
 }
 
 function retrieveAdjective(arr){
-    let dict = ["adj0", "adj1", "adj2", "adj3", "adj4"];
+    let dict = ["red", "smelly", "dirty", "old", "shiny"];
     return dict[arr[2]];
 }
 
